@@ -7075,12 +7075,18 @@ display:table;
 	.container{
 		min-width:1200px;
 		}
+		.l-hide{
+			display:none !important;
+			}
 	}
 
 	@media only screen and (min-width: 1400px) {
 		.container{
 			min-width:1240px;
 		}
+		.l0-hide{
+			display:none !important;
+			}
 	}
 
 	@media(min-width:980px) and (max-width: 1199px) {
@@ -7093,6 +7099,9 @@ display:table;
 	#mainmenu li a:after{
 	margin-left:15px;
 	}
+		.l1-hide{
+			display:none !important;
+			}
 	
 	}
 
@@ -7103,6 +7112,9 @@ display:table;
 	.slider_text {
 	padding-top: 0px;
 	}
+		.l2-hide{
+			display:none !important;
+			}
 	
 	}
 	
