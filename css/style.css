@@ -69,6 +69,12 @@ body {
 	background:#606060;
 }
 
+@media only screen and (max-width: 768px) {
+    #dev1 {
+        display: none;
+    }
+}
+
 body.de_light,.de_light{
 	color:#777777;
 }
