@@ -641,7 +641,7 @@ jQuery(document).ready(function () {
 	jQuery("#testimonial-carousel-single").owlCarousel({
 			items:1,
 			autoplay:true,
-			autoplayTimeout:6000,
+			autoplayTimeout:10000,
 			animateOut: 'fadeOut',
 			animateIn: 'fadeIn',
 			loop:true,
